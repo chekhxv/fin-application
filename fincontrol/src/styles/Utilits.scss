@@ -1,0 +1,49 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-column, .right-column{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 144rem;
+}
+
+.title{
+
+    &__first{
+        font-size: 2.7083333333333335vw;
+        font-weight: 900;
+        color: $graycolor;
+        letter-spacing: -1.8%;
+        max-width: 48.6rem;
+        width: 100%;
+    }
+    &__second{
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: $black;
+        letter-spacing: -0.432px;
+    }
+}
+
+// margins
+
+.mb-9px{
+    margin-bottom: 0.9rem;
+}
+
+.mb-32px{
+    margin-bottom: 3.2rem;
+}
+
+
+.mb-16px{
+    margin-bottom: 1.6rem;
+}

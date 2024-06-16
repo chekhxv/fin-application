@@ -1,0 +1,121 @@
+.header{
+    max-width: 144rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.4rem 0;
+
+    &__navigation{
+        display: flex;
+        margin: 0 auto;
+        max-width: 120rem;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        &-btn{
+            font-size: 1.6rem;
+            font-weight: 700;
+            display: block;
+            font-family: 'Montserrat';
+            outline: none;
+            border: none;
+            color: #fff;
+            max-width: 16rem;
+            width: 100%;
+            max-height: 4.2rem;
+            height: 100%;
+            padding: .4rem 1.3rem .4rem .8rem;
+            border-radius: 1.6rem;
+            background-color: #0047AF;
+            cursor: pointer;
+        }
+    }
+    &__logo{
+        max-width: 13.7rem;
+        max-height: 3.2rem;
+        height: 100%;
+        display: block;
+    }
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    list-style-type: none;
+    &__left{
+    }
+    &__center{
+    }
+    &__right{
+    }
+    &__item{
+        
+    }
+    &__link{
+
+        :link,
+        :visited
+        {
+            color: #0047AF;
+            font-family: 'Montserrat';
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 3.2rem; 
+            letter-spacing: -0.252px;
+        }
+       
+    }
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+        padding-left: 1.6rem;
+        padding-right: 2.4rem;
+    }
+}
+
+.user-avatar{
+    max-width: 4rem;
+    max-height: 4rem;
+    height: auto;
+    display: block;
+}
+
+.user-name{
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.288px;
+    color: #131313;
+}
+
+.user-email{
+    color: #1E2029;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.216px;
+}
+
+
+.logout-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    &__icon{
+        display: block;
+        max-width: 2.4rem;
+        max-height: 2.4rem;
+        height: auto;
+    }
+}

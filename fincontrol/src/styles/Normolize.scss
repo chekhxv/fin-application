@@ -3,12 +3,14 @@
 $graycolor: #1E2029;
 $black: #131313;
 
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
 }
 
 html{
@@ -23,4 +25,11 @@ body{
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.container{
+    margin: 0;
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
 }
